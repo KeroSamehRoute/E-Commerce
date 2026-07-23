@@ -1,0 +1,10 @@
+@E_Commerce.API_HostAddress = http://localhost:5201
+
+###
+GET {{E_Commerce.API_HostAddress}}/api/Products
+Accept : application/json
+
+###
+
+GET {{E_Commerce.API_HostAddress}}/api/Products/1
+Accept : application/json
